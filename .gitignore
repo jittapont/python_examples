@@ -1,6 +1,5 @@
-.ipynb_checkpoints/
-__pycache__/
 *.log
+data/
 
 # Created by https://www.toptal.com/developers/gitignore/api/jupyternotebooks,python
 # Edit at https://www.toptal.com/developers/gitignore?templates=jupyternotebooks,python
