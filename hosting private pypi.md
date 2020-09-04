@@ -35,3 +35,13 @@
 ```bash
   pip install -i http://SERVER_IP_ADDRESS:3141/root/pypi/+simple/ simplejson
 ```
+
+# How to upload package to devpi server
+
+[Taken from this url](https://opensource.com/article/18/7/setting-devpi)
+
+1.  Install devpi-client and twine
+```bash
+  pip install devpi-client twine
+```
+
