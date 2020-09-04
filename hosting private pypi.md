@@ -27,3 +27,7 @@
   curl http://localhost:3141
   curl http://SERVER_IP_ADDRESS:3141
 ```
+7.  Stop devpi server by
+```bash
+  devpi-server --stop
+```
