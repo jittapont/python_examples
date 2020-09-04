@@ -44,4 +44,24 @@
 ```bash
   pip install devpi-client twine
 ```
+2.  Configure devpi to use devpi server
+```bash
+  devpi use http://SERVER_IP_ADDRESS:3141
+```
+3.  Create user and password
+```bash
+  devpi user -c username password=password
+```
+4.  Login using created user credentials
+```bash
+  devpi login username --password=password
+```
+5.  Create index for current user
+```bash
+  devpi index -c index_name bases=root/pypi
+```
+6.  Configure devpi to use current user index
+```bash
+  devpi use username/index_name
+```
 
