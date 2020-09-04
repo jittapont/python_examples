@@ -64,4 +64,11 @@
 ```bash
   devpi use username/index_name
 ```
-
+7.  Use twine to upload your package
+```bash
+  twine upload --repository-url http://SERVER_IP_ADDRESS:3141/username/index_name -u username -p password YOUR_PACKAGE_NAME.tar.gz
+```
+8.  Verify upload by install package from devpi
+```bash
+  pip install --trusted-host SERVER_IP_ADDRESS -i http://SERVER_IP_ADDRESS:3141/username/index_name YOUR_PACKAGE_NAME
+```
