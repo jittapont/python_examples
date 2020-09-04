@@ -31,3 +31,7 @@
 ```bash
   devpi-server --stop
 ```
+8.  Install some test package to verify that devpi server is working
+```bash
+  pip install -i http://SERVER_IP_ADDRESS:3141/root/pypi/+simple/ simplejson
+```
